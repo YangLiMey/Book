@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSString *str = @"git commit test";
+    NSLog(@"this is just %@",str);
     // Do any additional setup after loading the view, typically from a nib.
 }
 
