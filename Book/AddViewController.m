@@ -16,6 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSString *branchStr = @"git branch commit test";
+    NSLog(@"this is just %@",branchStr);
+    
     // Do any additional setup after loading the view.
 }
 

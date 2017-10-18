@@ -15,6 +15,7 @@
 		E7103D621F8F798A0033B787 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7103D611F8F798A0033B787 /* main.m */; };
 		E7103D6C1F8F798A0033B787 /* BookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7103D6B1F8F798A0033B787 /* BookTests.m */; };
 		E7103D771F8F798A0033B787 /* BookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7103D761F8F798A0033B787 /* BookUITests.m */; };
+		E736F8FD1F96FD5F00B91574 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E736F8FC1F96FD5F00B91574 /* AddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E7103D721F8F798A0033B787 /* BookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7103D761F8F798A0033B787 /* BookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookUITests.m; sourceTree = "<group>"; };
 		E7103D781F8F798A0033B787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E736F8FB1F96FD5F00B91574 /* AddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		E736F8FC1F96FD5F00B91574 /* AddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				E7103D5D1F8F798A0033B787 /* LaunchScreen.storyboard */,
 				E7103D601F8F798A0033B787 /* Info.plist */,
 				E7103D611F8F798A0033B787 /* main.m */,
+				E736F8FB1F96FD5F00B91574 /* AddViewController.h */,
+				E736F8FC1F96FD5F00B91574 /* AddViewController.m */,
 			);
 			path = Book;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			files = (
 				E7103D571F8F798A0033B787 /* ViewController.m in Sources */,
 				E7103D621F8F798A0033B787 /* main.m in Sources */,
+				E736F8FD1F96FD5F00B91574 /* AddViewController.m in Sources */,
 				E7103D541F8F79890033B787 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
